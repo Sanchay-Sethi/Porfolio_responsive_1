@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive Sample 2</title>
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div class="splash">
+        <h1>
+			<span>S</span>
+            <span>a</span>
+            <span>n</span>
+            <span>c</span>
+            <span>h</span>
+            <span>a</span>
+            <span>Y</span>
+            <span>-</span>
+            <span>S</span>
+            <span>e</span>
+            <span>t</span>
+            <span>h</span>
+            <span>i</span>
+            <span>.</span>
+            <span>.</span>
+            <span>.</span>
+		</h1>
+    </div>
+
+   <div class="wrapper">
+
+    <!-- Header part -->
+       <header>
+           <a href="#" class="logo">MyPortfolio</a>
+           <div class="toggle" onclick="toggleClassName();"></div>
+       </header>
+       <div class="sidebar">
+           <ul>
+               <li><a href="#home"  onclick="toggleClassName();">Home</a></li>
+               <li><a href="#about"  onclick="toggleClassName();">About</a></li>
+               <li><a href="#services"  onclick="toggleClassName();">Services</a></li>
+               <li><a href="#client"  onclick="toggleClassName();">Clients</a></li>
+               <li><a href="#testimonials"  onclick="toggleClassName();">Testimonials</a></li>
+               <li><a href="#team"  onclick="toggleClassName();">Team</a></li>
+               <li><a href="#contact"  onclick="toggleClassName();">Contact</a></li>
+           </ul>
+       </div>
+
+       <div class="banner" id="home" >
+           <img src="images/mypic.jpeg" alt="">
+           <div class="content">
+               <h2>Module Wrapper</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium facilis odit asperiores consequuntur quis blanditiis velit voluptas fugit maxime natus.</p>
+           </div>
+       </div>
+   
+
+   <!-- About Section  -->
+
+   <section class="about" id="about">
+       <div class="contentBx" data-sal="zoom-in" data-sal-duration="500">
+           <h2 class="heading" >About Us</h2>
+           <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta earum, asperiores architecto numquam sed reiciendis similique molestias laboriosam itaque cupiditate aspernatur blanditiis laborum sunt voluptates, enim sint. Officia cum quibusdam, neque adipisci a iure saepe asperiores animi dicta quia repudiandae minus minima facilis nostrum,<br> <br> ducimus consectetur nesciunt maiores vero magnam! Laboriosam, repellat ullam eaque blanditiis numquam est officiis quis. Facere doloremque nihil, exercitationem quaerat soluta quasi dolorem in ducimus necessitatibus dolore, aliquid consequuntur blanditiis libero ut esse repellat voluptatum, nulla consectetur vero. Soluta et, quam est ad reprehenderit molestiae similique beatae nostrum architecto ratione laudantium facilis doloremque non repellat eius!</p>
+       </div>
+       <div class="imgBx" data-sal="slide-right" data-sal-duration="500"></div>
+   </section>
+
+   <!-- Service -->
+
+   <section class="services" id="services">
+       <h2 class="heading" data-sal="flip-up" data-sal-duration="500">Our Services</h2>
+       <p class="text" data-sal="flip-down" data-sal-duration="500">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti hic consequuntur et officiis nesciunt laudantium, libero magnam quae aspernatur eos autem numquam, sapiente nisi saepe nemo laborum nihil dignissimos, tenetur sed tempore nam fugiat! Fuga soluta vitae fugiat itaque! Tenetur.</p>
+
+       <div class="container">
+           <div class="serviceBx" data-sal="slide-right" data-sal-duration="500">
+               <div>
+                   <img src="images/icon1.png" alt="">
+                   <h2>Design</h2>
+                   </div>
+           </div>
+           <div class="serviceBx" data-sal="slide-down" data-sal-duration="500">
+            <div>
+                <img src="images/icon2.png" alt="">
+                <h2>Development</h2>
+                </div>
+        </div>
+        <div class="serviceBx" data-sal="slide-left" data-sal-duration="500">
+            <div>
+                <img src="images/icon3.png" alt="">
+                <h2>Branding</h2>
+                </div>
+        </div>
+       </div>
+   </section>
+
+   <!-- Technoloogies -->
+   <section class="technology" id="technology">
+       <div class="contentBx" data-sal="slide-right" data-sal-duration="500">
+           <h2 class="heading">
+               Inspirational Ways to go ahead
+           </h2>
+           <p class="text">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus reprehenderit quas necessitatibus, voluptatibus amet fuga eveniet nulla tempora deleniti iusto non a? Possimus hic temporibus nihil molestiae doloremque ab tenetur necessitatibus distinctio blanditiis magnam qui at enim voluptatem quasi, incidunt animi facilis aliquid molestias? Id totam libero ipsum atque harum?
+           </p>
+       </div>
+       <div class="imgBx" data-sal="flip-left" data-sal-duration="500">
+           <img src="images/tech.png" alt="">
+       </div>
+   </section>
+
+
+   <!-- Client -->
+   <section class="client" id="client">
+       <h2 class="heading" data-sal="zoom-in" data-sal-duration="500">Our Clients</h2>
+       <p class="text" data-sal="slide-up" data-sal-duration="500" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam quis eligendi enim sequi, earum amet quos ad quaerat dicta assumenda sit tempore cumque blanditiis porro rem, praesentium quod deleniti voluptates iusto est! Amet quas voluptatibus impedit nihil. Repudiandae, commodi!</p>
+       <div class="imgbx">
+           <img src="images/brand1.png" alt="" data-sal="slide-right" data-sal-duration="500" >
+           <img src="images/brand2.png" alt="" data-sal="slide-up" data-sal-duration="500" >
+           <img src="images/brand3.png" alt="" data-sal="slide-down" data-sal-duration="500" >
+           <img src="images/brand4.png" alt="" data-sal="slide-left" data-sal-duration="500" >
+       </div>
+   </section>
+
+
+   <!-- Testimonials -->
+   <section class="testimonials" id="testimonials">
+       <h2 class="heading">
+           Satisfied Customers
+       </h2>
+       <div class="container">
+           <div class="contentBx" data-sal="slide-right" data-sal-duration="500" >
+              <div>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, suscipit odio expedita temporibus quis quo facilis consequatur quibusdam nisi corrupti, unde nobis laudantium aspernatur? 
+                  </p><br>
+                  <h3>Donald Trump /-</h3>
+              </div> 
+           </div>
+
+           <div class="contentBx" data-sal="slide-left" data-sal-duration="500" >
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, suscipit odio expedita temporibus quis quo facilis consequatur quibusdam nisi corrupti, unde nobis laudantium aspernatur? 
+                </p><br>
+                <h3>Elon Musk /-</h3>
+            </div> 
+         </div>
+
+       </div>
+   </section>
+
+   <!-- Team -->
+   <section class="team" id="team">
+       <h2 class="heading" data-sal="slide-up" data-sal-duration="500" >My Team</h2>
+       <p class="text" data-sal="slide-down" data-sal-duration="500" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Id officiis dolorem architecto necessitatibus libero provident autem omnis, enim cum sed. Eligendi minus ipsum numquam adipisci impedit, autem obcaecati accusantium ab.</p>
+       <div class="container">
+           <div class="teamBx" data-sal="slide-right" data-sal-duration="500" >
+               <div class="box">
+                   <div class="imgBx">
+                       <img src="images/5.jpeg" alt="">
+                   </div>
+                   <div class="content">
+                       <h2>Sanchay Sethi<br><span>CEO & Founder</span></h2>
+                   </div>
+               </div>
+           </div>
+           <div class="teamBx" data-sal="slide-down" data-sal-duration="500" >
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Jeff Bezos<br><span>P-Assistant</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="teamBx" data-sal="slide-down" data-sal-duration="500" >
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/7.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Albert Einstein<br><span>Tech-expert</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="teamBx" data-sal="slide-left" data-sal-duration="500" >
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/8.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <h2>Babu Rao<br><span>HOD</span></h2>
+                </div>
+            </div>
+        </div>
+       </div>
+
+   </section>
+
+
+   <!-- Contact -->
+   <section class="contact" >
+       <div>
+           <h2 class="heading" data-sal="slide-up" data-sal-duration="500" >Contact Me</h2>
+           <p class="text" data-sal="slide-down" data-sal-duration="500" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, vitae officiis velit, dolorum iste temporibus est, saepe optio hic magni ipsam quod impedit obcaecati quos. Culpa natus odio illo iste fugiat doloribus molestias voluptate, sapiente possimus atque porro, incidunt modi.</p>
+       </div>
+   </section>
+   <section class="about" id="contact" data-sal="zoom-in" data-sal-duration="500" >
+    <div class="contentBx redBg">
+       <div class="form">
+           <div class="inputBx">
+               <input type="text" name="" placeholder="Good Name">
+           </div>
+           <div class="inputBx">
+            <input type="email" name="" placeholder="Email ID">
+        </div>
+        <div class="inputBx">
+            <input type="number" name="" placeholder="Mobile No.">
+        </div>
+        <div class="inputBx">
+           <textarea placeholder="Write Your Need..."></textarea>
+        </div>
+        <div class="inputBx">
+            <input type="submit" name="" value="Submit">
+        </div>
+       </div>
+    </div>
+    <div class="imgBx2"></div>
+</section>
+
+
+<!-- footer -->
+<section class="footer">
+    <p class="text" data-sal="slide-up" data-sal-duration="500">Designed & Developed By Sanchay Sethi</p>
+    <ul>
+        <p class="text" data-sal="slide-down" data-sal-duration="500">Follow me on : </p>
+        <li><a href="#"><img src="images/facebook.png" alt=""></a></li>
+        <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+        <li><a href="#"><img src="images/linkedin.png" alt=""></a></li>
+    </ul>
+</section>
+
+</div>
+
+
+
+
+   <!-- Javascript part -->
+
+   <script src="sal.js"></script>
+
+   <script>
+        sal({
+            once: false,
+        });
+        const splash = document.querySelector('.splash');
+        document.addEventListener('DOMContentLoaded',(e)=>{
+            setTimeout(()=>{
+                splash.classList.add('display-none');
+            },6000);
+        })
+       function toggleClassName(){
+           var sidebar = document.querySelector('.sidebar');
+           var wrapper = document.querySelector('.wrapper');
+           var toggle = document.querySelector('.toggle');
+
+           sidebar.classList.toggle('active')
+           wrapper.classList.toggle('active')
+           toggle.classList.toggle('active')
+       }
+       window.addEventListener('scroll',function(){
+           var header = document.querySelector('header');
+           header.classList.toggle('sticky',window.scrollY>0)
+       })
+   </script>
+</body>
+</html>
